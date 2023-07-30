@@ -19,6 +19,7 @@ dependencies {
     implementation("io.quarkus:quarkus-hibernate-reactive-panache-kotlin")
     implementation("io.quarkus:quarkus-resteasy-reactive-kotlin-serialization")
     implementation("io.quarkus:quarkus-arc")
+    implementation("io.quarkus:quarkus-reactive-mysql-client")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
 }
